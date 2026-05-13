@@ -1,0 +1,10 @@
+apiVersion: v2
+name: dependabot-helm-oci-repro
+description: Repro chart for Dependabot Helm OCI prerelease filtering
+version: 0.1.0
+type: application
+
+dependencies:
+  - name: demo-lib
+    repository: oci://ghcr.io/jaredlueck/helm
+    version: 3.44.0

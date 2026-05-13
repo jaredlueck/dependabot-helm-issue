@@ -1,0 +1,14 @@
+version: 2
+
+registries:
+  ghcr-helm-oci:
+    type: helm-registry
+    url: https://ghcr.io
+
+updates:
+  - package-ecosystem: helm
+    directory: "/"
+    schedule:
+      interval: daily
+    registries:
+      - ghcr-helm-oci
