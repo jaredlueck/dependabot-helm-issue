@@ -7,4 +7,4 @@ type: application
 dependencies:
   - name: demo-lib
     repository: oci://ghcr.io/jaredlueck/helm
-    version: 3.44.0
+    version: 3.44.2.1.g585bce1
